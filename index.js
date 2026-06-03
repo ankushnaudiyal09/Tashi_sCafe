@@ -146,7 +146,7 @@ const TWO_STAR_REVIEWS = [
 
 
 const GOOGLE_REVIEW_URL =
-"https://g.page/r/CVvQqkZzepFIEBE/review";
+"https://g.page/r/CbD4dKK-IaYUEBE/review";
 
 
 
