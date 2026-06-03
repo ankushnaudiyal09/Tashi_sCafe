@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tashi's Cafe and Restaurant | Share Your Experience</title>
+
+<meta
+name="description"
+content="Share your experience with Authentic Nutrition and help fitness enthusiasts discover trusted supplements, sports nutrition and health products in Dehradun.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800&family=DM+Serif+Display&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<!-- ===================================== -->
+<!-- Animated Background -->
+<!-- ===================================== -->
+
+<div class="bg-canvas">
+
+    <div class="orb orb-1"></div>
+
+    <div class="orb orb-2"></div>
+
+    <div class="orb orb-3"></div>
+
+    <div class="grain"></div>
+
+</div>
+
+<!-- ===================================== -->
+<!-- SCREEN 1 : STAR RATING -->
+<!-- ===================================== -->
+
+<!-- ===================================== -->
+<!-- SCREEN 1 : STAR RATING -->
+<!-- ===================================== -->
+
+<section
+class="screen active"
+id="screen-rating">
+
+    <div class="card">
+
+        <div class="brand">
+
+            <div class="brand-icon">
+                ☕
+            </div>
+
+            <div>
+
+                <div class="brand-title">
+                    Tashi's Cafe and Restaurant
+                </div>
+
+                <div class="brand-subtitle">
+                    Multi-Cuisine Cafe & Restaurant • Raipur, Dehradun
+                </div>
+
+                <div class="store-address">
+                    1, Kiduuwala Road,
+                    Near Indian Oil Pump,
+                    Raipur, Dehradun
+                </div>
+
+            </div>
+
+        </div>
+
+        <h1 class="heading">
+            How was your
+            <br>
+            <em>experience</em>
+        </h1>
+
+        <p class="sub">
+            Your review helps food lovers discover a cozy
+            multi-cuisine cafe in Raipur, Dehradun known for
+            tasty food, warm ambience, and a pleasant dining experience.
+        </p>
+
+        <div
+        class="star-row"
+        id="stars">
+
+            <button
+            class="star"
+            data-rating="1">
+                ★
+            </button>
+
+            <button
+            class="star"
+            data-rating="2">
+                ★
+            </button>
+
+            <button
+            class="star"
+            data-rating="3">
+                ★
+            </button>
+
+            <button
+            class="star"
+            data-rating="4">
+                ★
+            </button>
+
+            <button
+            class="star"
+            data-rating="5">
+                ★
+            </button>
+
+        </div>
+
+        <p
+        class="rating-label"
+        id="ratingLabel">
+            Tap a star to begin
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ===================================== -->
+<!-- SCREEN 2 : REVIEW SELECTION -->
+<!-- ===================================== -->
+
+<section
+class="screen"
+id="screen-reviews">
+
+    <div class="card card-tall">
+
+        <button
+        class="back-btn"
+        onclick="goBack()">
+            Back
+        </button>
+
+        <div
+        class="rating-display"
+        id="ratingDisplay">
+        </div>
+
+        <h2 class="heading heading-sm">
+            Choose Your Review
+        </h2>
+
+        <p class="sub">
+            Select the review that best matches your
+            experience at Tashi's Cafe and Restaurant.
+        </p>
+
+        <div
+        class="review-list"
+        id="reviewList">
+        </div>
+
+        <button
+            class="cta-btn"
+            id="submitBtn"
+            disabled
+            onclick="submitReview()">
+
+            <span class="btn-icon">
+                📋
+            </span>
+
+            <span class="btn-text">
+                Copy & Open Google Reviews
+            </span>
+
+            <span class="btn-arrow">
+                →
+            </span>
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ===================================== -->
+<!-- SCREEN 3 : SUCCESS SCREEN -->
+<!-- ===================================== -->
+
+<section
+class="screen"
+id="screen-success">
+
+    <div class="card">
+
+        <div class="success-ring">
+            <div class="success-icon">
+                ✓
+            </div>
+        </div>
+
+        <h2 class="heading heading-sm">
+            Review Copied
+            <br>
+            <em>Successfully</em>
+        </h2>
+
+        <p class="sub">
+            Google Reviews will open automatically.
+
+            Simply paste your copied review and
+            click Post to support Tashi's Cafe and Restaurant.
+        </p>
+
+        <div class="steps-container">
+
+            <div class="step">
+                <div class="step-num">
+                    1
+                </div>
+                <div class="step-body">
+                    <strong>
+                        Google Reviews opens
+                    </strong>
+                    <span>
+                        A new tab or Google Maps will open
+                    </span>
+                </div>
+            </div>
+
+            <div class="step-connector"></div>
+
+            <div class="step">
+                <div class="step-num">
+                    2
+                </div>
+                <div class="step-body">
+                    <strong>
+                        Tap the review text box
+                    </strong>
+                    <span>
+                        Click "Share details of your experience"
+                    </span>
+                </div>
+            </div>
+
+            <div class="step-connector"></div>
+
+            <div class="step">
+                <div class="step-num">
+                    3
+                </div>
+                <div class="step-body">
+                    <strong>
+                        Long press and paste
+                    </strong>
+                    <span>
+                        Your review is already copied
+                    </span>
+                </div>
+            </div>
+
+            <div class="step-connector"></div>
+
+            <div class="step">
+                <div class="step-num">
+                    4
+                </div>
+                <div class="step-body">
+                    <strong>
+                        Click Post
+                    </strong>
+                    <span>
+                        Thank you for supporting
+                        Tashi's Cafe and Restaurant
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="review-reminder">
+            <div class="reminder-label">
+                Your Copied Review
+            </div>
+            <div
+            class="reminder-text"
+            id="reminderText">
+            </div>
+        </div>
+
+        <button
+            class="cta-btn cta-outline"
+            onclick="openGoogleAgain()">
+
+            <span class="btn-icon">
+                🔗
+            </span>
+
+            <span class="btn-text">
+                Open Google Reviews Again
+            </span>
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ===================================== -->
+<!-- TOAST -->
+<!-- ===================================== -->
+
+<div
+class="toast"
+id="toast">
+
+</div>
+
+<!-- ===================================== -->
+<!-- JS -->
+<!-- ===================================== -->
+
+<script src="index.js"></script>
+
+</body>
+</html>
